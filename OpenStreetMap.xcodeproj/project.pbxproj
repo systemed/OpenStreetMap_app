@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		792F10F21B1E339A007CC1B5 /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792F10F11B1E339A007CC1B5 /* SWXMLHash.swift */; };
+		794B94841B20A3E500A61D7F /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 794B94831B20A3E500A61D7F /* Settings.bundle */; };
+		794B94861B20A58D00A61D7F /* OSMConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794B94851B20A58D00A61D7F /* OSMConnection.swift */; };
+		79851AFA1B1E05E000FB32D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79851AF91B1E05E000FB32D1 /* AppDelegate.swift */; };
+		79851AFC1B1E05E000FB32D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79851AFB1B1E05E000FB32D1 /* ViewController.swift */; };
+		79851AFF1B1E05E000FB32D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79851AFD1B1E05E000FB32D1 /* Main.storyboard */; };
+		79851B011B1E05E000FB32D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79851B001B1E05E000FB32D1 /* Images.xcassets */; };
+		79851B041B1E05E100FB32D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79851B021B1E05E100FB32D1 /* LaunchScreen.xib */; };
+		79851B101B1E05E100FB32D1 /* OpenStreetMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79851B0F1B1E05E100FB32D1 /* OpenStreetMapTests.swift */; };
+		79851B1A1B1E063300FB32D1 /* AddressesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79851B191B1E063300FB32D1 /* AddressesViewController.swift */; };
+		79851B1C1B1E068500FB32D1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79851B1B1B1E068500FB32D1 /* MapViewController.swift */; };
+		79851B1F1B1E08B900FB32D1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79851B1D1B1E08B900FB32D1 /* AudioToolbox.framework */; };
+		79851B201B1E08B900FB32D1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79851B1E1B1E08B900FB32D1 /* AVFoundation.framework */; };
+		79851B2D1B1E100100FB32D1 /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 79851B291B1E100100FB32D1 /* AcousticModelEnglish.bundle */; };
+		79851B2E1B1E100100FB32D1 /* AcousticModelSpanish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 79851B2A1B1E100100FB32D1 /* AcousticModelSpanish.bundle */; };
+		79851B2F1B1E100100FB32D1 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79851B2B1B1E100100FB32D1 /* OpenEars.framework */; };
+		79851B301B1E100100FB32D1 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79851B2C1B1E100100FB32D1 /* Slt.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79851B0A1B1E05E100FB32D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79851AEC1B1E05E000FB32D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79851AF31B1E05E000FB32D1;
+			remoteInfo = OpenStreetMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		792F10F11B1E339A007CC1B5 /* SWXMLHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWXMLHash.swift; sourceTree = "<group>"; };
+		794B94831B20A3E500A61D7F /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		794B94851B20A58D00A61D7F /* OSMConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSMConnection.swift; sourceTree = "<group>"; };
+		79851AF41B1E05E000FB32D1 /* OpenStreetMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenStreetMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79851AF81B1E05E000FB32D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79851AF91B1E05E000FB32D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79851AFB1B1E05E000FB32D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79851AFE1B1E05E000FB32D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79851B001B1E05E000FB32D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		79851B031B1E05E100FB32D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		79851B091B1E05E100FB32D1 /* OpenStreetMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenStreetMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79851B0E1B1E05E100FB32D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79851B0F1B1E05E100FB32D1 /* OpenStreetMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenStreetMapTests.swift; sourceTree = "<group>"; };
+		79851B191B1E063300FB32D1 /* AddressesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressesViewController.swift; sourceTree = "<group>"; };
+		79851B1B1B1E068500FB32D1 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		79851B1D1B1E08B900FB32D1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		79851B1E1B1E08B900FB32D1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		79851B251B1E097900FB32D1 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		79851B291B1E100100FB32D1 /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		79851B2A1B1E100100FB32D1 /* AcousticModelSpanish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelSpanish.bundle; sourceTree = "<group>"; };
+		79851B2B1B1E100100FB32D1 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		79851B2C1B1E100100FB32D1 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79851AF11B1E05E000FB32D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79851B301B1E100100FB32D1 /* Slt.framework in Frameworks */,
+				79851B1F1B1E08B900FB32D1 /* AudioToolbox.framework in Frameworks */,
+				79851B201B1E08B900FB32D1 /* AVFoundation.framework in Frameworks */,
+				79851B2F1B1E100100FB32D1 /* OpenEars.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79851B061B1E05E100FB32D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79851AEB1B1E05E000FB32D1 = {
+			isa = PBXGroup;
+			children = (
+				79851B281B1E100100FB32D1 /* Framework */,
+				79851B1D1B1E08B900FB32D1 /* AudioToolbox.framework */,
+				79851B1E1B1E08B900FB32D1 /* AVFoundation.framework */,
+				79851AF61B1E05E000FB32D1 /* OpenStreetMap */,
+				79851B0C1B1E05E100FB32D1 /* OpenStreetMapTests */,
+				79851AF51B1E05E000FB32D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79851AF51B1E05E000FB32D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79851AF41B1E05E000FB32D1 /* OpenStreetMap.app */,
+				79851B091B1E05E100FB32D1 /* OpenStreetMapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79851AF61B1E05E000FB32D1 /* OpenStreetMap */ = {
+			isa = PBXGroup;
+			children = (
+				79851AF91B1E05E000FB32D1 /* AppDelegate.swift */,
+				79851AFB1B1E05E000FB32D1 /* ViewController.swift */,
+				79851AFD1B1E05E000FB32D1 /* Main.storyboard */,
+				79851B001B1E05E000FB32D1 /* Images.xcassets */,
+				79851B021B1E05E100FB32D1 /* LaunchScreen.xib */,
+				79851AF71B1E05E000FB32D1 /* Supporting Files */,
+				79851B191B1E063300FB32D1 /* AddressesViewController.swift */,
+				79851B1B1B1E068500FB32D1 /* MapViewController.swift */,
+				794B94851B20A58D00A61D7F /* OSMConnection.swift */,
+				79851B251B1E097900FB32D1 /* BridgingHeader.h */,
+				792F10F11B1E339A007CC1B5 /* SWXMLHash.swift */,
+				794B94831B20A3E500A61D7F /* Settings.bundle */,
+			);
+			path = OpenStreetMap;
+			sourceTree = "<group>";
+		};
+		79851AF71B1E05E000FB32D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79851AF81B1E05E000FB32D1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79851B0C1B1E05E100FB32D1 /* OpenStreetMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				79851B0F1B1E05E100FB32D1 /* OpenStreetMapTests.swift */,
+				79851B0D1B1E05E100FB32D1 /* Supporting Files */,
+			);
+			path = OpenStreetMapTests;
+			sourceTree = "<group>";
+		};
+		79851B0D1B1E05E100FB32D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79851B0E1B1E05E100FB32D1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79851B281B1E100100FB32D1 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				79851B291B1E100100FB32D1 /* AcousticModelEnglish.bundle */,
+				79851B2A1B1E100100FB32D1 /* AcousticModelSpanish.bundle */,
+				79851B2B1B1E100100FB32D1 /* OpenEars.framework */,
+				79851B2C1B1E100100FB32D1 /* Slt.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79851AF31B1E05E000FB32D1 /* OpenStreetMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79851B131B1E05E100FB32D1 /* Build configuration list for PBXNativeTarget "OpenStreetMap" */;
+			buildPhases = (
+				79851AF01B1E05E000FB32D1 /* Sources */,
+				79851AF11B1E05E000FB32D1 /* Frameworks */,
+				79851AF21B1E05E000FB32D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenStreetMap;
+			productName = OpenStreetMap;
+			productReference = 79851AF41B1E05E000FB32D1 /* OpenStreetMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79851B081B1E05E100FB32D1 /* OpenStreetMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79851B161B1E05E100FB32D1 /* Build configuration list for PBXNativeTarget "OpenStreetMapTests" */;
+			buildPhases = (
+				79851B051B1E05E100FB32D1 /* Sources */,
+				79851B061B1E05E100FB32D1 /* Frameworks */,
+				79851B071B1E05E100FB32D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79851B0B1B1E05E100FB32D1 /* PBXTargetDependency */,
+			);
+			name = OpenStreetMapTests;
+			productName = OpenStreetMapTests;
+			productReference = 79851B091B1E05E100FB32D1 /* OpenStreetMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79851AEC1B1E05E000FB32D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Richard Fairhurst";
+				TargetAttributes = {
+					79851AF31B1E05E000FB32D1 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					79851B081B1E05E100FB32D1 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 79851AF31B1E05E000FB32D1;
+					};
+				};
+			};
+			buildConfigurationList = 79851AEF1B1E05E000FB32D1 /* Build configuration list for PBXProject "OpenStreetMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79851AEB1B1E05E000FB32D1;
+			productRefGroup = 79851AF51B1E05E000FB32D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79851AF31B1E05E000FB32D1 /* OpenStreetMap */,
+				79851B081B1E05E100FB32D1 /* OpenStreetMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79851AF21B1E05E000FB32D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79851AFF1B1E05E000FB32D1 /* Main.storyboard in Resources */,
+				79851B2E1B1E100100FB32D1 /* AcousticModelSpanish.bundle in Resources */,
+				79851B2D1B1E100100FB32D1 /* AcousticModelEnglish.bundle in Resources */,
+				79851B041B1E05E100FB32D1 /* LaunchScreen.xib in Resources */,
+				794B94841B20A3E500A61D7F /* Settings.bundle in Resources */,
+				79851B011B1E05E000FB32D1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79851B071B1E05E100FB32D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79851AF01B1E05E000FB32D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79851AFC1B1E05E000FB32D1 /* ViewController.swift in Sources */,
+				79851B1A1B1E063300FB32D1 /* AddressesViewController.swift in Sources */,
+				79851AFA1B1E05E000FB32D1 /* AppDelegate.swift in Sources */,
+				792F10F21B1E339A007CC1B5 /* SWXMLHash.swift in Sources */,
+				79851B1C1B1E068500FB32D1 /* MapViewController.swift in Sources */,
+				794B94861B20A58D00A61D7F /* OSMConnection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79851B051B1E05E100FB32D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79851B101B1E05E100FB32D1 /* OpenStreetMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79851B0B1B1E05E100FB32D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79851AF31B1E05E000FB32D1 /* OpenStreetMap */;
+			targetProxy = 79851B0A1B1E05E100FB32D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79851AFD1B1E05E000FB32D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79851AFE1B1E05E000FB32D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79851B021B1E05E100FB32D1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79851B031B1E05E100FB32D1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79851B111B1E05E100FB32D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79851B121B1E05E100FB32D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79851B141B1E05E100FB32D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				INFOPLIST_FILE = OpenStreetMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = OpenStreetMap/BridgingHeader.h;
+			};
+			name = Debug;
+		};
+		79851B151B1E05E100FB32D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				INFOPLIST_FILE = OpenStreetMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = OpenStreetMap/BridgingHeader.h;
+			};
+			name = Release;
+		};
+		79851B171B1E05E100FB32D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OpenStreetMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenStreetMap.app/OpenStreetMap";
+			};
+			name = Debug;
+		};
+		79851B181B1E05E100FB32D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OpenStreetMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenStreetMap.app/OpenStreetMap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79851AEF1B1E05E000FB32D1 /* Build configuration list for PBXProject "OpenStreetMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79851B111B1E05E100FB32D1 /* Debug */,
+				79851B121B1E05E100FB32D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79851B131B1E05E100FB32D1 /* Build configuration list for PBXNativeTarget "OpenStreetMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79851B141B1E05E100FB32D1 /* Debug */,
+				79851B151B1E05E100FB32D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79851B161B1E05E100FB32D1 /* Build configuration list for PBXNativeTarget "OpenStreetMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79851B171B1E05E100FB32D1 /* Debug */,
+				79851B181B1E05E100FB32D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79851AEC1B1E05E000FB32D1 /* Project object */;
+}
